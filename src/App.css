@@ -1,0 +1,56 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: bisque;
+}
+p {
+  padding: 20px;
+  margin: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+p:hover {
+  font-weight: 600;
+}
+.box {
+  display: flex;
+}
+.footer {
+  right: 0;
+  bottom: 0;
+  background-color: bisque;
+  position: fixed;
+  width: 100%;
+}
+.box1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img {
+  margin: 10px;
+  height: 500px;
+  width: 400px;
+  border-radius: 10px;
+}
+.img:hover {
+  cursor: pointer;
+}
+.desc {
+  text-align: center;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+}
+.first {
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  font-weight: 600;
+}
+.second {
+  display: flex;
+  justify-content: center;
+}
